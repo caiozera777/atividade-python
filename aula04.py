@@ -1,0 +1,13 @@
+nome        = input ("digite seu nome")
+idade       = int (input("digite sua idade"))
+cpf         = int (input("digite seu cpf"))
+salário     = float (input("digite seu salário"))
+
+print ("Olá, {}!" .format (nome))
+print ("Tudo bem com você?")
+print ("caramba {} ! Você tem {} anos? Nem parece." .format (nome, idade))
+print ("seu cpf por favor!", "{}" .format (cpf))
+print ("quanto você ganha?", "{}" .format (nome))
+print ("eu ganho", "{}" .format (salário))
+print ("PQP como você ganha tudo isso?")
+print ("Facil!", "fassa curso na apex ensinos!")
